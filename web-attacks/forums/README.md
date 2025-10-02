@@ -1,10 +1,10 @@
-# express-idor-demo
+# iXpress
 
 Tiny demo that demonstrates Insecure Direct Object Reference (IDOR) patterns.
 
 ## What it shows
 - `/supersecretstuff` — an unprotected route that returns another flag.
-- `public/index.js` — a copy of the server code that a curious user can open in their browser to discover `/givemetheflag`.
+- `app.js` — the server code that a curious user can open in their browser to discover `/supersecretstuff`.
 
 ## Run locally
 1. Save the files above into a folder.
@@ -14,6 +14,6 @@ Tiny demo that demonstrates Insecure Direct Object Reference (IDOR) patterns.
 
 ## Try it
 - Visit `http://localhost:3000` and click posts.
-- Fetch `http://localhost:3000/api/posts/3` to see the post-level flag.
-- Open `http://localhost:3000/index.js` to view server source. Notice the `/givemetheflag` route.
-- Visit `http://localhost:3000/givemetheflag` to retrieve the route-level flag.
+- Fetch `http://localhost:3000/posts/0.html` to see the flag file
+- Open `http://localhost:3000/index.js` to view server source. Notice the `/supersecretstuff` route.
+- Visit `http://localhost:3000/supersecretstuff` to retrieve the route-level flag.
