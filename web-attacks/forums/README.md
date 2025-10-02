@@ -3,7 +3,6 @@
 Tiny demo that demonstrates Insecure Direct Object Reference (IDOR) patterns.
 
 ## What it shows
-- `/api/posts/:id` — posts are fetched by ID without authentication. The secret (flag) is stored in post `id=0`.
 - `/supersecretstuff` — an unprotected route that returns another flag.
 - `public/index.js` — a copy of the server code that a curious user can open in their browser to discover `/givemetheflag`.
 
