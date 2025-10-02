@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2em;
+}
+
+header {
+    font-size: 3em;
+}
+
+.login-form input {
+    font-size: 3em;
+    width: 20em;
+    height: 5%;
+    padding: 12px 20px;
+    border: 2px solid green;
+    margin: 8px 0;
+}
+
+.login-form button {
+    font-size: 3em;
+    width: 20em;
+    height: 5%;
+    padding: 12px 20px;
+    border: 2px solid blue;
+    margin: 8px 0;
+}
+
+.login-form button:hover {
+    background: lightgray;
+    border: 2px solid blue;
+}
+
+.login-form button:active {
+    background: gray;
+    border: 2px solid blue;
+}

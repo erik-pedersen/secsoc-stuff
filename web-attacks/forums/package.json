@@ -1,0 +1,14 @@
+{
+  "name": "iXpress",
+  "version": "1.0.0",
+  "description": "iXpress app demonstrating IDOR (insecure direct object reference)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ChatGPT, Erik Pedersen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
